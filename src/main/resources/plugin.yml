@@ -1,0 +1,15 @@
+name: PerfectShop
+version: 0.0.0
+main: me.stefan923.perfectshop.PerfectShop
+description: The perfect Shop GUIs that let you sell what you want, the way you want.
+authors: [Stefan923]
+
+commands:
+  perfectshop:
+    description: Infos about this plugin.
+    aliases: [pshop]
+
+permissions:
+  perfectshop.admin:
+    description: Acces to powerfull commands, like reload, configuration commands.
+    default: op
